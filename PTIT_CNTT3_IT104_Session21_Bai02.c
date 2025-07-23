@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX 3
+#define MAX 4
 
 void initGraph(int graph[MAX][MAX])
 {
@@ -36,7 +36,7 @@ int main()
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 2);
     addEdge(graph, 1, 2);
-    addEdge(graph, 2, 3);
+    addEdge(graph, 2, 3); 
     printGraph(graph);
     return 0;
 }
